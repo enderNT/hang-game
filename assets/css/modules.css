@@ -1,0 +1,47 @@
+.container {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.invisible {
+    display: none !important;
+}
+
+.button {
+    border: 1px solid var(--text-color-bold);
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.button--primary {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.button--secondary {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
+button {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1023px) {
+
+    .container {
+        margin-right: 2.5rem;
+        margin-left: 2.5rem;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .container {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+}
